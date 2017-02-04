@@ -1,0 +1,380 @@
+@media screen and (min-width: 641px){
+/*--------------------slider---------------------*/
+
+.content{
+	padding: 0 30px;
+}
+
+.slider header{
+	padding: 0 30px;
+}	
+
+.slider header .logo {
+	margin-top: 15px;
+}	
+
+.slider header .logo a{
+	font-size: 25px;
+	line-height: 25px;
+}
+
+.slider header .enter{
+	display: none;
+}
+
+.slider header .desc-menu{
+	display: inline-block;
+	position: absolute;
+	top:10px;
+	right: 20px;
+	padding: 10px 0;
+}
+
+.slider header .desc-menu li{
+	display: inline-block;	
+}
+	
+.slider header .desc-menu li a{
+	color: white;
+	font: 400 14px  'Open Sans', sans-serif;
+	line-height: 16px;
+	text-decoration: none;
+	padding: 0px 5px;
+}	
+	
+.slider-items  .slick-list .slick-track>div{
+	padding: 160px 0 80px 0;
+}
+
+.slider .slider-items .slick-arrow{
+	display: block !important;
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	text-indent: -9999999999999px;
+	z-index: 5;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 1px solid #709dca;
+}
+
+.slider .slider-items .slick-prev{
+	background: url(../img/l-arrow.png) no-repeat 50% 50%;
+	left: 25px;
+}
+
+.slider .slider-items .slick-next{
+	transform: rotate(180deg);
+	background: url(../img/l-arrow.png) no-repeat 50% 50%;
+	right: 25px;
+}
+
+/*--------------------end----------------------------*/
+/*----------------section ofer-----------------------*/
+
+.offer .content {
+	overflow:hidden;
+}
+	
+.offer h2 {
+	font-size:  23px ;
+	line-height: 26px;
+	margin-top: 20px;
+}
+	 
+.offer h6 {
+	font-size: 15px; 
+	line-height: 16px;
+	margin-bottom: 30px;
+}
+		
+.column {
+	width: 50%;
+	float: left;
+}
+	
+.offer .column div {
+	margin-bottom: 40px;
+}
+	
+.offer .column:first-of-type  div {
+	margin-right: 20px;
+}
+		
+.offer .column:last-of-type  div {
+	margin-left: 20px;
+}
+		
+.offer h4 {
+	padding-bottom: 15px;
+	font-size: 13px;
+	line-height: 18px;
+}
+				
+.offer .column i {
+	font-size:  28px; 
+	line-height: 30px;
+}
+					
+.offer p, .offer h4 {
+	margin-left: 40px;
+}
+
+/*--------------------end----------------------------*/
+/*----------------section we are-------------------------*/
+
+.who_we {
+	position: relative;
+	overflow: hidden;
+}
+
+.who_we .photo {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	padding-top: 0;
+}
+
+.who_we .yellow_fon {
+	width: 50%;
+	float: right;
+	padding:40px 0;
+}
+
+.who_we .yellow_fon .text {
+	margin-left: 30px;
+}
+
+.who_we yellow_fon h3 {
+	font-size: 23px ;
+	line-height: 23px;
+	margin-bottom: 25px;
+}
+					
+.who_we div p {
+	font-size: 13px;
+	padding-bottom: 15px;
+}
+			
+.who_we .yellow_fon a{
+	font-size: 13px; 
+	padding: 12px 18px;
+	margin-top: 30px;
+}
+/*--------------------end----------------------------*/
+/*-------------section our work-------------------*/
+
+.our_work{
+	overflow:hidden;
+}
+
+.our_work h2 {
+	font-size:  23px ;
+	line-height: 26px;
+	padding: 50px 0 15px 0;
+}
+			
+.our_work h2+p .demo-icon {
+	font-size: 20px;
+}
+
+.our_work  h2+p i:before, .our_work h2+p  i:after {
+	content: "";
+	width: 80px;
+}
+									
+.our_work h2+p i:before {
+	margin: -1px 22px 0 0;
+}
+				
+.our_work h2+p i:after{
+	margin:-1px 0 0 22px;
+}
+	
+.our_work h6 {
+	font-size: 18px; 
+	line-height: 20px;
+	margin: 20px 0 30px 0;
+	padding: 0px 15px;
+}
+
+.our_work ul{
+	margin-bottom: 20px;
+}
+
+.our_work ul li a {
+	font-size: 16px;
+	line-height: 18px;
+	padding:  10px 12px;
+	border-radius: 4px;
+}
+
+.our_work .fon_picture .fon_color .fon_text p:first-of-type{
+	font-size: 16px;
+}
+
+.our_work .fon_picture .fon_color .fon_text p:last-of-type{
+	font-size: 12px;
+}
+
+.our_work div[id^='tabs-']{
+	overflow: hidden;
+}
+.our_work .fon_picture{
+	width:50%;
+	float: left;
+}
+
+/*--------------------end----------------------------*/
+/*----------------section testemonials--------------*/
+.testimonials {
+	padding-bottom: 30px;
+}
+
+.testimonials h2 {
+	font-size:23px;
+	line-height: 24px;
+	padding-top: 40px;
+}
+		
+.testimonials h2+p {
+	margin-bottom: 40px;
+}
+				
+.testimonials h2+p .demo-icon {
+	font-size: 20px;
+}
+		
+.testimonials h2+p i:before, .testimonials h2+p i:after {
+	content: "";
+	width: 80px;
+}
+									
+.testimonials h2+p i:before {
+	margin: -1px 20px 0 0;
+}
+				
+.testimonials h2+p i:after{
+	margin:-1px 0 0 20px;
+}
+
+.my_slick div:nth-child(even){
+	margin-left: 15px;
+}
+
+.my_slick div:nth-child(odd){
+	margin-right: 15px;
+}
+
+/*--------------------end----------------------------*/
+/*--------------------section info---------------------*/
+
+.info {
+	padding: 30px 0;
+}
+		
+.info h4 {
+	font-size: 20px;
+	line-height: 20px;
+	margin-bottom: 22px;
+}
+	
+.info .content{
+	overflow: hidden;
+}
+			
+.business, .contact, .tweets, .letter {
+	width: 50%;
+	}	
+	
+.business, .contact, .letter {
+	float: left;
+}
+	
+.tweets {
+	clear: both;
+	float: left;
+}
+
+.tweets p {
+	padding-left: 30px;
+}
+				
+.business p, .tweets p {
+	margin-right: 30px;
+	text-align: justify;
+}		
+		
+.info p, .info li, .info p>a {
+	font-size: 13px;
+	line-height: 18px;
+}	
+
+.content div ul:last-child li{
+	line-height: 25px;
+}
+
+.info .demo-icon {
+	font-size: 18px;
+	padding-right: 12px;
+	line-height: 22px;
+}
+	
+form {
+	margin-top: 30px;
+}
+	
+input {
+	height: 33px;
+	font: 13px OpenSans;
+	line-height: 18px;
+	text-indent: 15px;
+}
+	
+input[type=text]	{
+	width: 230px;
+}
+	
+input[type=submit] {
+	width: 77px;
+	margin-left: 153px;
+}
+
+/*--------------------end----------------------------*/
+/*-------------------footer-------------------------*/
+
+footer{
+	padding: 25px 0;
+}
+	
+footer p {
+	line-height: 16px;
+	font-size: 12px;
+	width: 50%;
+	float: left;
+}
+		  
+footer p:last-of-type{
+	text-align: right;
+}
+
+footer ul {
+	clear: both;
+	text-align: center;
+}
+		
+footer li {
+	width: 28px;
+	height: 28px;
+}
+		
+footer .demo-icon{
+	font-size: 16px;
+	line-height: 28px;
+}
+
+/*--------------------end----------------------------*/
+}
